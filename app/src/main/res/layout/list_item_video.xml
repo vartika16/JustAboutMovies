@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    app:cardCornerRadius="9dp"
+    app:cardBackgroundColor="#f7ecec"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/imgbtnYoutube"
+            android:src="@drawable/youtube1"
+            android:scaleType="fitCenter"
+            android:background="#f7ecec"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/tvVideoName"
+            android:text="Video Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

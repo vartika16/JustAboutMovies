@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    tools:context="com.example.vartikajain.moviesearch.fragments.GenreMovieFragment">
+
+    <TextView
+        android:id="@+id/tvMovieGenre"
+        android:text="Genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance=
+            "@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textAlignment="center"/>
+
+    <ProgressBar
+        android:id="@+id/pbMovieGenre"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMovieGenre"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
